@@ -113,3 +113,32 @@ small{
     margin-left: 20px;
     opacity: .5;
 }
+.footer{
+   margin-top: 50px;
+   display: flex;
+   justify-content:space-between;
+}
+.left{
+    display: flex;
+}
+.footer-first{
+    max-width: 200px;
+    margin-left: 20px;
+}
+.sayi{
+    margin-top: 5px;
+    color: grey;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.retro{
+    margin-top: 10px;
+    font-size: 16px;
+}
+.retro:hover{
+    color: red;
+}
+.pc{
+    color: black;
+    opacity: .7;
+}
