@@ -15,6 +15,9 @@ body{
     display: flex;
     align-items: center;
 }
+.Header-switch{
+    display: none;
+}
 .Header-logo{
     display: flex;
     justify-content: center;
@@ -74,11 +77,11 @@ body{
     width: 200px;
     height: 50px;
     color: #fff;
-    background-color: #160840;
+    background-color: red;
     cursor: pointer;
 }
 .btn:hover{
-    background-color: orange;
+    background-color: #160840;
 }
 .content{
     display: flex;
@@ -144,4 +147,58 @@ small{
 .pc{
     color: black;
     opacity: .7;
+}
+@media (max-width: 576px){
+    .Header-filter{
+        display: none;
+    }
+    .Header-logo{
+        display: flex;
+        flex-grow: 1;
+        justify-content: flex-start;
+    }
+    .desktop{
+        width: 100%;
+    }
+    .Header-switch{
+        display: block;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+    .Content-left{
+        display: flex;
+        flex-direction: column;
+    }
+    .Content-first{
+        display: flex;
+        flex-direction: column;
+    }
+    .bright{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .promise{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        max-width: 350px;
+        overflow: hidden;
+        margin-bottom: 10px;
+    }
+    .Content-right{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .left{
+        margin-top: 20px;
+    }
 }
